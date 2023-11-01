@@ -1,30 +1,83 @@
-# README
+# Teacher-Student Portal Backend API (Ruby on Rails)
 
-A Student-Teacher Portal built using Ruby on Rails(Ruby framework)
+Welcome to the Teacher-Student Portal Backend API documentation. This API, built with Ruby on Rails, powers a comprehensive platform that facilitates communication, management, and interaction between teachers and students. It offers a wide range of features designed to enhance the educational experience.
 
-Class Manager is a Student-Teacher Portal where teachers and student can sign up and teachers can add students in their class.
+## Table of Contents
+- [Features](#features)
+- [API Endpoints](#api-endpoints)
+- [Getting Started](#getting-started)
+- [Authentication](#authentication)
+- [Error Handling](#error-handling)
+- [Data Validation](#data-validation)
+- [Sample Requests and Responses](#sample-requests-and-responses)
+- [Contributing](#contributing)
+- [License](#license)
 
-Class Manager contains more features like:
+## Features
 
-1.Teachers can add or edit their student's marks after adding them in the class.
+### Teacher Management
+1. Teachers can register, log in, and manage their accounts.
+2. Teachers can change their passwords as necessary.
+3. Teachers can store and manage course materials, lecture notes, and resources.
 
-* Teachers can also write notice which will be sent to all students in their class.
+### Class Management
+4. Teachers can create and manage classes.
+5. Teachers can add or remove a student from their class.
 
-* Teachers can upload assignments which will be sent to all students in their class and students can download the assignments.
+### Grading and Assessment
+6. Teachers can add or update their student's grades.
+7. Teachers can provide feedback to students.
 
-* Students can also submit their assignment but once submitted can't be changed later.
+### Communication
+8. Teachers can post notices, which are sent to all students in their class.
+9. Teachers can create and upload assignments for students to complete.
+10. Teachers can send and receive messages from students.
+11. Teachers can see all the marks given to a student through their marks profile.
+12. Students can submit assignments, but once submitted, changes are not allowed.
 
-* Teachers can also see all the mark given to a student through their marks profile and can edit them if necessary.
+### Student Features
+13. Students can view their marks in the marks section.
+14. Students can see the list of all teachers in the portal and can message any of them.
 
-* Students can see marks given to them by teachers in marks section.
+### Inbox and Search
+15. Teachers can see all the messages written by students in the Inbox.
+16. Teachers can search for any student through the search option at the top of the student list page.
 
-* Student can see the list of all teachers in the portal and can message any of them.
+## API Endpoints
 
-* Teachers can see all the messages written by students in Inbox.
+For a detailed list of API endpoints and their functionality, please refer to the [API Documentation](api-documentation.md).
 
-* User can search any student through search option at the top of the student list page. Same goes for teachers list.
+## Getting Started
 
-* User can see their profile through profile option.
+To get started with this API, follow these steps:
 
-* User can add profile picture and edit their profile through edit profile.
-* User can also change their password if necessary.
+1. Clone the repository: `git clone https://github.com/your-repo.git`
+2. Install Ruby and Rails if not already installed.
+3. Install dependencies: `bundle install`
+4. Set up the database and environment variables.
+5. Run the Rails server: `rails server`
+6. Access the API at `http://localhost:3000` (or your chosen port).
+
+## Authentication
+
+This API uses JSON Web Tokens (JWT) for user authentication. When making requests to protected endpoints, provide an `Authorization` header with a valid token.
+
+## Error Handling
+
+The API provides detailed error responses to assist in troubleshooting issues. Please refer to the [Error Handling Guide](error-handling.md) for more information.
+
+## Data Validation
+
+To maintain data integrity and security, the API enforces strict data validation. Please refer to the [Data Validation Guide](data-validation.md) for more information.
+
+## Sample Requests and Responses
+
+For examples of API requests and responses, consult the [Sample Requests and Responses](sample-requests-responses.md) document.
+
+## Contributing
+
+We welcome contributions from the community. To contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
