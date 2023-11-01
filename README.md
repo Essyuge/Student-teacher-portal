@@ -31,17 +31,16 @@ Welcome to the Teacher-Student Portal Backend API documentation. This API, built
 ### Communication
 8. Teachers can post notices, which are sent to all students in their class.
 9. Teachers can create and upload assignments for students to complete.
-10. Teachers can send and receive messages from students.
-11. Teachers can see all the marks given to a student through their marks profile.
-12. Students can submit assignments, but once submitted, changes are not allowed.
+10. Teachers can see all the marks given to a student through their marks profile.
+11. Students can submit assignments, but once submitted, changes are not allowed.
 
 ### Student Features
-13. Students can view their marks in the marks section.
-14. Students can see the list of all teachers in the portal and can message any of them.
+12. Students can view their marks in the marks section.
+13. Students can see the list of all teachers in the portal 
 
-### Inbox and Search
-15. Teachers can see all the messages written by students in the Inbox.
-16. Teachers can search for any student through the search option at the top of the student list page.
+### Search
+
+14. Teachers can search for any student through the search option at the top of the student list page.
 
 ## API Endpoints
 
