@@ -6,7 +6,7 @@ Class Manager is a Student-Teacher Portal where teachers and student can sign up
 
 Class Manager contains more features like:
 
-# 1.Teachers can add or edit their student's marks after adding them in the class.
+1.Teachers can add or edit their student's marks after adding them in the class.
 
 * Teachers can also write notice which will be sent to all students in their class.
 
